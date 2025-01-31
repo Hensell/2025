@@ -1,0 +1,97 @@
+ 
+# ──────────────────────────────────
+# ⚡ GENERAL (Para cualquier proyecto)
+# ──────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*.swn
+*.sublime-workspace
+
+# ──────────────────────────────────
+# 🐦 FLUTTER
+# ──────────────────────────────────
+# Build outputs
+/build/
+/android/.gradle/
+/android/app/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral/
+**/linux/build/
+**/macos/build/
+**/windows/build/
+**/web/.dart_tool/
+**/web/.firebase/
+**/coverage/
+**/pubspec.lock
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.idea/
+
+# ──────────────────────────────────
+# 🌐 VITE Y NEXT.JS
+# ──────────────────────────────────
+# Dependencias de npm o yarn
+node_modules/
+.pnpm-store/
+.yarn/
+.yarnrc.yml
+.yarn-error.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos generados por la compilación
+.next/
+out/
+dist/
+.vite/
+
+# Caché de npm
+.npm/
+
+# Caché de Vercel
+.vercel/
+.now/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# ──────────────────────────────────
+# 🚀 NODE.JS
+# ──────────────────────────────────
+# Dependencias
+node_modules/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de compilación
+dist/
+build/
+
+# Caché de ESLint y Prettier
+.eslintcache
+.prettier-cache/
+
+# ──────────────────────────────────
+# 🛠 OTRAS CONFIGURACIONES
+# ──────────────────────────────────
+# IDEs y editores de código
+.idea/
+.vscode/
+*.iml
+
+# Archivos de sistema
+*.bak
+*.tmp
