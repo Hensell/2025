@@ -11,7 +11,6 @@ class ApiCharacter {
     final response = await http.get(Uri.parse(Constants.baseApiUrl + api));
 
     if (response.statusCode == 200) {
-      print(CharacterResponse.fromJSON(json.decode(response.body)));
       return CharacterResponse.fromJSON(json.decode(response.body));
     } else {
       throw Exception(response.statusCode);
